@@ -10,12 +10,14 @@ export default function Header(){
     )
 }
 
-const styles = StyleSheet.create({
+const styles = ({
     header:{
         height: 85,
         paddingTop: 45,
         backgroundColor: '#056965',
         alignItems:'center',
+        position: 'fixed',
+        top: 0,
     },
     headerText:{
         color:'#fff',
