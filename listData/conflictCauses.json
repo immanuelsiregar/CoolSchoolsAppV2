@@ -1,0 +1,62 @@
+[
+    {
+        "id": 0,
+        "key": "Accident",
+        "checked": false
+    },
+    {
+        "id": 1,
+        "key": "Misunderstanding",
+        "checked": false
+    },
+    {
+        "id": 2,
+        "key": "Misunderstanding",
+        "checked": false
+    },
+    {
+        "id": 3,
+        "key": "Game Rules",
+        "checked": false
+    },
+    {
+        "id": 4,
+        "key": "Taking Turns",
+        "checked": false
+    },
+    {
+        "id": 5,
+        "key": "Teasing",
+        "checked": false
+    },
+    {
+        "id": 6,
+        "key": "Posessions/Ownership",
+        "checked": false
+    },
+    {
+        "id": 7,
+        "key": "Name Calling",
+        "checked": false
+    },
+    {
+        "id": 8,
+        "key": "Friendship Issue",
+        "checked": false
+    },
+    {
+        "id": 9,
+        "key": "Exclusion",
+        "checked": false
+    },
+    {
+        "id": 10,
+        "key": "Rumours/Gossip",
+        "checked": false
+    },
+    {
+        "id": 11,
+        "key": "Other",
+        "checked": false
+    }
+]

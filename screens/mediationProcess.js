@@ -58,7 +58,7 @@ export default function MediationProcess() {
             {
                 stagesContent.map((text, index) =>
                 <Text style={styles.stageContentText}key={index}>
-                        {showStageFourText ? text : "1) Ask Person (B) and then Person (A): What can you do...\n2) Ask Person (A) to comment on Person (B)\'s idea:\n"}
+                        {showStageFourText ? text : "1) Ask Person (B) and then Person (A): What can you do...\n2) Ask Person (A) to comment on Person (B)\'s idea:\n3) Ask Person (B) to comment on Person (A)\'s ideas.\n4) Ask which suggestions will solve the problem for both of them.\n5) Mediator summarises the agreement and checks if correct."}
                     </Text>
                 )
             }
@@ -66,12 +66,10 @@ export default function MediationProcess() {
             {
                 stagesContent.map((text, index) =>
                 <Text style={styles.stageContentText}key={index}>
-                        {showStageFiveText ? text : "Stage Five Content"}
+                        {showStageFiveText ? text : "1) Do you think the agreement solves the problem? Are you both happy now?\n2) Write the Agreement on the Mediation Report Form and ask disputants to sign it.\n3) Arrange a check back date and time.\n4) Congratulate disputants on reaching an agreement."}
                     </Text>
                 )
             }
-
-
         </ScrollView>
     );
 }

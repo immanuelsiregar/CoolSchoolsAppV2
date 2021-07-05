@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "key": "You offered to mediate",
+        "checked": false
+    },
+    {
+        "id": 1,
+        "key": "A teacher suggested it",
+        "checked": false
+    },
+    {
+        "id": 2,
+        "key": "Another student suggested it",
+        "checked": false
+    },
+    {
+        "id": 3,
+        "key": "Disputants asked you to",
+        "checked": false
+    },
+    {
+        "id": 4,
+        "key": "Other",
+        "checked": false
+    }
+]

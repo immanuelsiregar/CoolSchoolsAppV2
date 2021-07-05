@@ -10,6 +10,6 @@ export default function App() {
   //console.log("App executed.");
   //remove the console logging after development/testing, it has negative impact on performance
   return(
-      <MediationProcess/>
+      <SubmitForm/>
   )
 };
