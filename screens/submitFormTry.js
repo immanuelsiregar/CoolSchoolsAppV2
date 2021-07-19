@@ -1,3 +1,4 @@
+/*
 import { StatusBar } from 'expo-status-bar';
 import React, { Component, useState } from 'react';
 import { render } from 'react-dom';
@@ -31,10 +32,46 @@ const conflictMediation = [
     {id: 5, checkText: "Other", isChecked: false},
 ]
 */
+/*
+export default class SubmitForm extends Component() {
+    constructor(props){
+        super(props);
+        this.state = {
+            products: conflictCauses,
+        };
+    }
 
-export default function SubmitForm()
+    handleChange = (id) => {
+        let temp = this.state.products.map((product) => {
+            if (id === product.id){
+                return { ...product, isChecked: !product.isChecked};
+            }
+            return product;
+        });
+        this.setState({
+            products: temp,
+        });
+    };
 
-    
+    renderCheckBox = (renderConflictCauses) =>{
+        return(
+            <View>
+                renderConflictCauses{({item}) =>(
+                    <CheckBox>
+                    value = {item.isChecked}
+                    onChange={()=>{
+                        this.handleChange(item.id);
+                    }}
+                    </CheckBox>
+                )
+                }
+            </View>
+        )
+            
+    }
+
+    render(){
+        let selected = this.state.products?.filter((product) => product.isChecked);
         return (
         <ScrollView stickyHeaderIndices={[0]}>
             <Header/>
@@ -52,7 +89,9 @@ export default function SubmitForm()
 
         </ScrollView>
     );
-        
+        }
+}
+
 
 
 const styles = StyleSheet.create({
@@ -64,3 +103,4 @@ const styles = StyleSheet.create({
         width: 200,
     }
 })
+*/
